@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.claymccoy</groupId>
+    <artifactId>ExecutableWar</artifactId>
+    <version>0.1</version>
+  </parent>
+
+  <groupId>com.claymccoy</groupId>
+  <artifactId>RUN</artifactId>
+  <version>0.1</version>
+
+  <dependencies>
+
+	<dependency>
+    <groupId>com.claymccoy</groupId>
+    <artifactId>ProjectCode</artifactId>
+    <version>0.1</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.codehaus.groovy</groupId>
+		<artifactId>groovy-all</artifactId>
+	</dependency>
+
+  <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>catalina</artifactId>
+      <version>6.0.18</version>
+  </dependency>
+
+  <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>coyote</artifactId>
+      <version>6.0.18</version>
+  </dependency>
+
+  <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>jasper</artifactId>
+      <version>6.0.18</version>
+  </dependency>
+
+	
+  </dependencies>
+  
+  <build>
+        <plugins>
+	
+            <plugin>
+              <groupId>org.codehaus.gmaven</groupId>
+              <artifactId>gmaven-plugin</artifactId>
+            </plugin>
+			
+        </plugins>
+  </build>
+
+</project>
