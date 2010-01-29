@@ -88,7 +88,6 @@
   </build>
 
   <modules>
-    <module>ProjectCode</module>
     <module>RUN</module>
     <module>WEB</module>
   </modules>
