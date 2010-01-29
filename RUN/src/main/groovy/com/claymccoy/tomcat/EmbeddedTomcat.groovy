@@ -70,6 +70,11 @@ public class EmbeddedTomcat {
     }
 
     println "Started Tomcat.  Go to http://localhost:${port}${contextPath}"
+
+    // This is only here because Tomcat will stop when this thread stops.
+    while(true) {
+      Thread.sleep(1000*60);
+    }
   }
 
 
