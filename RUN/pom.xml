@@ -16,12 +16,6 @@
   <dependencies>
 
 	<dependency>
-    <groupId>com.claymccoy</groupId>
-    <artifactId>ProjectCode</artifactId>
-    <version>0.1</version>
-	</dependency>
-
-	<dependency>
 		<groupId>org.codehaus.groovy</groupId>
 		<artifactId>groovy-all</artifactId>
 	</dependency>
